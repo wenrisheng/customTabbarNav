@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BE8BACA18601BB200E6C780 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE8BAC918601BB200E6C780 /* UIKit.framework */; };
+		2BE8BACC18601BB200E6C780 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE8BACB18601BB200E6C780 /* Foundation.framework */; };
+		2BE8BACE18601BB200E6C780 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE8BACD18601BB200E6C780 /* CoreGraphics.framework */; };
+		2BE8BAD018601BB200E6C780 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE8BACF18601BB200E6C780 /* CoreData.framework */; };
+		2BE8BAD618601BB200E6C780 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BE8BAD418601BB200E6C780 /* InfoPlist.strings */; };
+		2BE8BAD818601BB200E6C780 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8BAD718601BB200E6C780 /* main.m */; };
+		2BE8BADC18601BB200E6C780 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8BADB18601BB200E6C780 /* AppDelegate.m */; };
+		2BE8BADE18601BB200E6C780 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BE8BADD18601BB200E6C780 /* Default.png */; };
+		2BE8BAE018601BB200E6C780 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BE8BADF18601BB200E6C780 /* Default@2x.png */; };
+		2BE8BAE218601BB200E6C780 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BE8BAE118601BB200E6C780 /* Default-568h@2x.png */; };
+		2BE8BAE518601BB300E6C780 /* woshimingxing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BE8BAE318601BB200E6C780 /* woshimingxing.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BE8BAC618601BB200E6C780 /* woshimingxing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = woshimingxing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE8BAC918601BB200E6C780 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2BE8BACB18601BB200E6C780 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BE8BACD18601BB200E6C780 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BE8BACF18601BB200E6C780 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2BE8BAD318601BB200E6C780 /* woshimingxing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "woshimingxing-Info.plist"; sourceTree = "<group>"; };
+		2BE8BAD518601BB200E6C780 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BE8BAD718601BB200E6C780 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BE8BAD918601BB200E6C780 /* woshimingxing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "woshimingxing-Prefix.pch"; sourceTree = "<group>"; };
+		2BE8BADA18601BB200E6C780 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BE8BADB18601BB200E6C780 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BE8BADD18601BB200E6C780 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2BE8BADF18601BB200E6C780 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2BE8BAE118601BB200E6C780 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2BE8BAE418601BB200E6C780 /* woshimingxing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = woshimingxing.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BE8BAC318601BB200E6C780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE8BACA18601BB200E6C780 /* UIKit.framework in Frameworks */,
+				2BE8BACC18601BB200E6C780 /* Foundation.framework in Frameworks */,
+				2BE8BACE18601BB200E6C780 /* CoreGraphics.framework in Frameworks */,
+				2BE8BAD018601BB200E6C780 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BE8BABD18601BB200E6C780 = {
+			isa = PBXGroup;
+			children = (
+				2BE8BAD118601BB200E6C780 /* woshimingxing */,
+				2BE8BAC818601BB200E6C780 /* Frameworks */,
+				2BE8BAC718601BB200E6C780 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BE8BAC718601BB200E6C780 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BE8BAC618601BB200E6C780 /* woshimingxing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BE8BAC818601BB200E6C780 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BE8BAC918601BB200E6C780 /* UIKit.framework */,
+				2BE8BACB18601BB200E6C780 /* Foundation.framework */,
+				2BE8BACD18601BB200E6C780 /* CoreGraphics.framework */,
+				2BE8BACF18601BB200E6C780 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BE8BAD118601BB200E6C780 /* woshimingxing */ = {
+			isa = PBXGroup;
+			children = (
+				2BE8BADA18601BB200E6C780 /* AppDelegate.h */,
+				2BE8BADB18601BB200E6C780 /* AppDelegate.m */,
+				2BE8BAE318601BB200E6C780 /* woshimingxing.xcdatamodeld */,
+				2BE8BAD218601BB200E6C780 /* Supporting Files */,
+			);
+			path = woshimingxing;
+			sourceTree = "<group>";
+		};
+		2BE8BAD218601BB200E6C780 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BE8BAD318601BB200E6C780 /* woshimingxing-Info.plist */,
+				2BE8BAD418601BB200E6C780 /* InfoPlist.strings */,
+				2BE8BAD718601BB200E6C780 /* main.m */,
+				2BE8BAD918601BB200E6C780 /* woshimingxing-Prefix.pch */,
+				2BE8BADD18601BB200E6C780 /* Default.png */,
+				2BE8BADF18601BB200E6C780 /* Default@2x.png */,
+				2BE8BAE118601BB200E6C780 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BE8BAC518601BB200E6C780 /* woshimingxing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE8BAE818601BB300E6C780 /* Build configuration list for PBXNativeTarget "woshimingxing" */;
+			buildPhases = (
+				2BE8BAC218601BB200E6C780 /* Sources */,
+				2BE8BAC318601BB200E6C780 /* Frameworks */,
+				2BE8BAC418601BB200E6C780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = woshimingxing;
+			productName = woshimingxing;
+			productReference = 2BE8BAC618601BB200E6C780 /* woshimingxing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BE8BABE18601BB200E6C780 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = athudong;
+			};
+			buildConfigurationList = 2BE8BAC118601BB200E6C780 /* Build configuration list for PBXProject "woshimingxing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BE8BABD18601BB200E6C780;
+			productRefGroup = 2BE8BAC718601BB200E6C780 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BE8BAC518601BB200E6C780 /* woshimingxing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BE8BAC418601BB200E6C780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE8BAD618601BB200E6C780 /* InfoPlist.strings in Resources */,
+				2BE8BADE18601BB200E6C780 /* Default.png in Resources */,
+				2BE8BAE018601BB200E6C780 /* Default@2x.png in Resources */,
+				2BE8BAE218601BB200E6C780 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BE8BAC218601BB200E6C780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE8BAD818601BB200E6C780 /* main.m in Sources */,
+				2BE8BADC18601BB200E6C780 /* AppDelegate.m in Sources */,
+				2BE8BAE518601BB300E6C780 /* woshimingxing.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BE8BAD418601BB200E6C780 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BE8BAD518601BB200E6C780 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BE8BAE618601BB300E6C780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BE8BAE718601BB300E6C780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BE8BAE918601BB300E6C780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "woshimingxing/woshimingxing-Prefix.pch";
+				INFOPLIST_FILE = "woshimingxing/woshimingxing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BE8BAEA18601BB300E6C780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "woshimingxing/woshimingxing-Prefix.pch";
+				INFOPLIST_FILE = "woshimingxing/woshimingxing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BE8BAC118601BB200E6C780 /* Build configuration list for PBXProject "woshimingxing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE8BAE618601BB300E6C780 /* Debug */,
+				2BE8BAE718601BB300E6C780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE8BAE818601BB300E6C780 /* Build configuration list for PBXNativeTarget "woshimingxing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE8BAE918601BB300E6C780 /* Debug */,
+				2BE8BAEA18601BB300E6C780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2BE8BAE318601BB200E6C780 /* woshimingxing.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2BE8BAE418601BB200E6C780 /* woshimingxing.xcdatamodel */,
+			);
+			currentVersion = 2BE8BAE418601BB200E6C780 /* woshimingxing.xcdatamodel */;
+			path = woshimingxing.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2BE8BABE18601BB200E6C780 /* Project object */;
+}
